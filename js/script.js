@@ -1,5 +1,4 @@
-// Copyright (c) 2020 Mr. Coxall All rights reserved
-//
+// Copyright (c) 2020 Mr. Coxall All rights reserved//
 // Created by: Joyce Nkengbeza
 // Created on: May 2025
 // This file contains the JS functions for index.html
@@ -7,7 +6,7 @@
 "use strict"
 
 function calculate() {
-  const TAX_RATE = 0.13
+  const TAX_RATE = 0.13;
 
   // amount of cookies selection
   let cookieChoice = ""
@@ -54,4 +53,3 @@ function calculate() {
       "<p>Please select both the number and flavour of cookies before you can get the total.</p>"
   }
 }
-
