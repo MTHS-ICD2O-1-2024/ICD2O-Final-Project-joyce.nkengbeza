@@ -12,6 +12,8 @@ function calculate() {
   let language = ''
   let setting = ''
   let tone = ''
+  let story = ''
+  let recommendation = ''
   
 
   // Entertainment type
@@ -74,3 +76,36 @@ function calculate() {
     tone = 'serious'
   }
 }
+  //Story Type
+  if (document.getElementById('serialized').checked) {
+    story = 'serialized'
+  } else if (document.getElementById('serialized').checked) {
+    story = 'episodic'
+  }
+  //validation
+
+  if (
+    type === '' || genre === '' || length === '' || language === '' || setting === '' || tone === '' || story === ''
+  ) {
+    document.getElementById(results).innerhtml =
+    "<p>Answer all the questions to recive reccomendations!!!</p>"
+    return
+  }
+
+  //Reccomendations Logic
+  if (type === 'anime') {
+    if (setting === 'scifi') {
+        recommendation = { 
+          title:"Steins;Gate",
+          image:"./images/steinsgate.jpg",
+          Description : "Steins;Gate is a Japanese anime television series about a group of friends in Akihabara who discover a method of sending text messages to the past, inadvertently creating time travel. The story follows Rintaro Okabe and his friends as they navigate the consequences of altering the timeline and contend with a secret organization, SERN, that also seeks to control time travel." 
+
+    }
+  } else if (genre === "action" && tone === "lighthearted") {
+    recommendation = {
+        title: "My Hero Academia",
+        image:".images/MHA.jpeg",
+        Description:"The story follows Izuku Midoriya, a boy born without superpowers in a world where they are the norm, but who still dreams of becoming a superhero himself, and is scouted by the world's greatest hero, All Might, who shares his powers with Izuku after recognizing his value and enrolls him in a prestigious high school for superheros in training"
+
+    }  
+  }    
