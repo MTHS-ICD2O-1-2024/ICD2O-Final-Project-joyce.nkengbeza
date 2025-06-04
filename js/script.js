@@ -12,7 +12,7 @@ function calculate () {
   let language = ''
   let setting = ''
   let tone = ''
-  let story = ''
+  
 
   // Entertainment type
   if (document.getElementById('anime').checked) {
