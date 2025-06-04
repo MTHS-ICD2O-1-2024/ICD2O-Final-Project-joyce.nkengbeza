@@ -24,21 +24,21 @@ function calculate() {
   }
     //Genre
     if (document.getElementById("action").checked) {
-        genre = "action"
+       genre = "action"
 
     } else if (document.getElementById("comedy").checked) {
-        genre = "comedy"  
+      genre = "comedy"  
         
-     } else if (document.getElementById("romance").checked) {
-        genre = "romance"
-    }  else if (document.getElementById("mystery").checked) {
-        genre = "mystery"
+    } else if (document.getElementById("romance").checked) {
+      genre = "romance"
+    } else if (document.getElementById("mystery").checked) {
+      genre = "mystery"
 
-    }  else if (document.getElementById("fantasy").checked) {
-        genre = "fantasy"
+    } else if (document.getElementById("fantasy").checked) {
+      genre = "fantasy"
 
-    }  else if (document.getElementById("horror").checked) {
-        genre = "horror"
+    } else if (document.getElementById("horror").checked) {
+      genre = "horror"
     }
     
     //Length
@@ -46,45 +46,45 @@ function calculate() {
     if (document.getElementById("short").checked) {
         length = "short"
      } else if (document.getElementById("medium").checked) {
-        length = "medium"
+       length = "medium"
      } else if (document.getElementById("long").checked) {
-        length = "long"
+       length = "long"
      }
 
      //Language
 
-     if (document.getElementById(dubbed).checked) {
-        language = "dubbed"
+     if (document.getElementById("dubbed").checked) {
+         language = "dubbed"
      
-    } else if (document.getElementById(subtitles).checked) {
-        language = "subtitles"
+    } else if (document.getElementById("subtitles").checked) {
+      language = "subtitles"
      
-    } else if (document.getElementById(either).checked) {
-        language = "either"
+    } else if (document.getElementById("either").checked) {
+      language = "either"
      }
 
      //Setting
 
-     if (document.getElementById(modern).checked) {
+     if (document.getElementById("modern").checked) {
         setting = "modern"
-     } else if (document.getElementById(historical).checked) {
-        setting = "historical"
-     } else if (document.getElementById(scifi).checked) {
-        setting = "scifi"
-     } else if (document.getElementById(supernatural).checked) {
-        setting = "supernatural"
+     } else if (document.getElementById("historical").checked) {
+       setting = "historical"
+     } else if (document.getElementById("scifi").checked) {
+       setting = "scifi"
+     } else if (document.getElementById("supernatural").checked) {
+       setting = "supernatural"
      }
 
      //Tone
 
-     if (document.getElementById(lighthearted).checked) {
+     if (document.getElementById("lighthearted").checked) {
         tone = "lighthearted"
      
-    } else if (document.getElementById(emotional).checked) {
-        tone = "emotional"
+    } else if (document.getElementById("emotional").checked) {
+      tone = "emotional"
      
-    } else if (document.getElementById(serious).checked) {
-        tone = "serious"
+    } else if (document.getElementById("serious").checked) {
+      tone = "serious"
     }
 
 
