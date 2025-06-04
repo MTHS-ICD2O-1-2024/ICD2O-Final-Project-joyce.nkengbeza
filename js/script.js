@@ -5,7 +5,7 @@
 
 'use strict'
 
-function calculate () {
+function calculate() {
   let type = ''
   let genre = ''
   let length = ''
