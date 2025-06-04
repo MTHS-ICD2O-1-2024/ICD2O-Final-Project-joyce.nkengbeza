@@ -73,3 +73,4 @@ function calculate () {
   } else if (document.getElementById('serious').checked) {
     tone = 'serious'
   }
+}
