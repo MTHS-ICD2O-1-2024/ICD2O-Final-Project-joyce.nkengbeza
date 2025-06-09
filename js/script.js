@@ -155,7 +155,33 @@ function calculate() {
         image: "./image/brookly.jpeg",
         decription: "Brooklyn Nine-Nine is a comedy television series that follows the lives and investigations of a detective squad within the fictional 99th Precinct of the New York City Police Department, located in Brooklyn. The show revolves around the humor, camaraderie, and sometimes surprising personalities of the characters as they navigate their jobs and personal lives."
       }
-    } else if 
+    } else if (genre === "action" && tone === "emotional") {
+      recommendation = {
+        title: "The Mandelorian",
+        image: "./image/mandelorian.jpeg",
+        description: "The Mandalorian is set after the fall of the Empire and before the emergence of the First Order. We follow the travails of a lone gunfighter in the outer reaches of the galaxy far from the authority of the New Republic."
+      }
 
+  } else if (genre === "mystery" && story === "serialized") {
+      recommendation = {
+        title: "Sherlock",
+        image: "./image/sherlock.jpg",
+        decription:"Synopsis In this contemporary version of Sir Arthur Conan Doyle's detective stories, Dr. John Watson is a war vet just home from Afghanistan. He meets the brilliant but eccentric Holmes when the latter, who serves as a consultant to Scotland Yard, advertises for a flatmate."
+      }
+  } else if (genre === "fantasy" && setting === "historical") {
+      recommendation = {
+        title: "Game of Thrones",
+        image: "./image/gamethrones.jpeg",
+        description: "Game of Thrones describes a long struggle for power between noble families while a threat looms over their kingdoms, an external enemy that destroys everything in its path: the White Walkers. The series takes place on two continents, Westeros to the west, and Essos to the east."
+      }
+  } else {
+      recommendation = {
+        title: "The Umbrella Academy",
+        image: "./image/umbrella.jpeg",
+        description: "The Umbrella Academy is a superhero comedy-drama television series based on the Dark Horse comic series of the same name. Created for television by Steve Blackman and Jeremy Slater, it centers around a dysfunctional family of adopted superhero siblings who are forced to come together to stop various apocalyptic threats while frequently traveling through time."
+      }
   }
+  // Output
+  document.getElementById("results").innerHTML =
+    "<p>🎬 We recommend you watch: <strong>" + recommendation + "</strong>!</p>"
 }
