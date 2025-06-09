@@ -131,5 +131,31 @@ function calculate() {
         description: "Attack on Titan is a Japanese manga and anime series about a world besieged by giant, man-eating humanoids called Titans. The story follows Eren Yeager, Mikasa Ackerman, and Armin Arlert, who join the Scout Regiment to fight against the Titans after their hometown is destroyed and Eren's mother is killed by a Colossal Titan."
       }
     }
+  } 
+  
+    if (language === "dubbed") {
+      recommendation += " (Available Dubbed in English)"
+    } else if (language === "subbed") {
+      recommendation += " (Recommended in Original Japanese)"
+    } else if (language === "either") {
+      reccommendation += "(Recommended in either)"
+    }
+
+  } if (type === "tvshow") {
+    if (setting === scifi) {
+      reccommendation = {
+        title: "Stranger Things",
+        image:"./image/strangerthings.jpeg",
+        description: "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces and one strange little girl."
+
+      }
+    } else if (genre === "comedy" && length === "short") {
+      recommendation = {
+        title: "Brooklynn nine-nine", 
+        image: "./image/brookly.jpeg",
+        decription: "Brooklyn Nine-Nine is a comedy television series that follows the lives and investigations of a detective squad within the fictional 99th Precinct of the New York City Police Department, located in Brooklyn. The show revolves around the humor, camaraderie, and sometimes surprising personalities of the characters as they navigate their jobs and personal lives."
+      }
+    } else if 
+
   }
 }
