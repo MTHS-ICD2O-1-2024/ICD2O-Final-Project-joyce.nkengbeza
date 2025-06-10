@@ -138,12 +138,12 @@ function calculate() {
     } else if (language === "subbed") {
       recommendation += " (Recommended in Original Japanese)"
     } else if (language === "either") {
-      reccommendation += "(Recommended in either)"
+      recommendation += "(Recommended in either)"
     }
 
   } if (type === "tvshow") {
     if (setting === scifi) {
-      reccommendation = {
+      recommendation = {
         title: "Stranger Things",
         image:"./image/strangerthings.jpeg",
         description: "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces and one strange little girl."
