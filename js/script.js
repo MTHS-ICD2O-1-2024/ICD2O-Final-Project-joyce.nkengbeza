@@ -97,37 +97,37 @@ function calculate() {
     if (setting === 'scifi') {
       recommendation = {
         title: "Steins;Gate",
-        images: "./images/steinsgate.jpg",
+        image: "./images/steinsgate.jpg",
         description: "Steins;Gate is a Japanese anime television series about a group of friends in Akihabara who discover a method of sending text messages to the past, inadvertently creating time travel. The story follows Rintaro Okabe and his friends as they navigate the consequences of altering the timeline and contend with a secret organization, SERN, that also seeks to control time travel."
       };
     } else if (genre === 'action' && tone === 'lighthearted') {
       recommendation = {
         title: "My Hero Academia",
-        images: "./images/MHA.jpeg",
+        image: "./images/MHA.jpeg",
         description: "The story follows Izuku Midoriya, a boy born without superpowers in a world where they are the norm, but who still dreams of becoming a superhero himself. He is scouted by the world's greatest hero, All Might, who shares his powers with Izuku after recognizing his value and enrolls him in a prestigious high school for superheroes in training."
       };
     } else if (genre === 'romance' && tone === 'emotional') {
       recommendation = {
         title: "Your Lie in April",
-        images: "./images/yourlieinapril.jpg",
+        image: "./images/yourlieinapril.jpg",
         description: "Your Lie in April is an anime series about a young musician who finds romance. Former piano prodigy Kousei is living a somewhat uninspired life, until he meets Kaori, a free-spirited multi-instrumentalist. Softball-loving Tsubaki and soccer star Watari are Kousei's best friends who support him through thick and thin."
       };
     } else if (genre === 'mystery' && story === 'serialized') {
       recommendation = {
         title: "Death Note",
-        images: "./images/deathnote.jpeg",
+        image: "./images/deathnote.jpeg",
         description: "Death Note is a supernatural crime thriller that revolves around a high school student, Light Yagami, who discovers a notebook that allows him to kill anyone whose name is written in it. He uses this power to eliminate criminals, believing he's creating a world cleansed of evil, while an international detective, L, tries to stop him."
       };
     } else if (genre === 'fantasy' && setting === 'supernatural') {
       recommendation = {
         title: "Jujutsu Kaisen",
-        images: "./images/jjk.jpg",
+        image: "./images/jjk.jpg",
         description: "Jujutsu Kaisen is a Japanese anime television series produced by MAPPA, based on Gege Akutami's manga series. The story follows high school student Yuji Itadori as he joins a secret organization of Jujutsu Sorcerers to eliminate a powerful Curse named Ryomen Sukuna, of whom Yuji becomes the host."
       };
     } else {
       recommendation = {
         title: "Attack On Titan",
-        images: "./images/aot.jpg",
+        image: "./images/aot.jpg",
         description: "Attack on Titan is a Japanese manga and anime series about a world besieged by giant, man-eating humanoids called Titans. The story follows Eren Yeager, Mikasa Ackerman, and Armin Arlert, who join the Scout Regiment to fight against the Titans after their hometown is destroyed and Eren's mother is killed by a Colossal Titan."
       };
     }
@@ -137,39 +137,39 @@ function calculate() {
     if (setting === 'scifi') {
       recommendation = {
         title: "Stranger Things",
-        images:"./images/strangerthings.jpeg",
+        image:"./images/strangerthings.jpeg",
         description: "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces and one strange little girl."
 
       };
     } else if (genre === 'comedy' && length === 'short') {
       recommendation = {
         title: "Brooklynn nine-nine", 
-        images: "./images/brookly.jpeg",
+        image: "./images/brookly.jpeg",
         description: "Brooklyn Nine-Nine is a comedy television series that follows the lives and investigations of a detective squad within the fictional 99th Precinct of the New York City Police Department, located in Brooklyn. The show revolves around the humor, camaraderie, and sometimes surprising personalities of the characters as they navigate their jobs and personal lives."
       };
     } else if (genre === 'action' && tone === 'emotional') {
       recommendation = {
         title: "The Mandelorian",
-        images: "./images/mandelorian.jpeg",
+        image: "./images/mandelorian.jpeg",
         description: "The Mandalorian is set after the fall of the Empire and before the emergence of the First Order. We follow the travails of a lone gunfighter in the outer reaches of the galaxy far from the authority of the New Republic."
       };
 
   } else if (genre === 'mystery' && story === 'serialized') {
       recommendation = {
         title: "Sherlock",
-        images: "./images/sherlock.jpg",
+        image: "./images/sherlock.jpg",
         description:"Synopsis In this contemporary version of Sir Arthur Conan Doyle's detective stories, Dr. John Watson is a war vet just home from Afghanistan. He meets the brilliant but eccentric Holmes when the latter, who serves as a consultant to Scotland Yard, advertises for a flatmate."
       };
   } else if (genre === 'fantasy' && setting === 'historical') {
       recommendation = {
         title: "Game of Thrones",
-        images: "./images/gamethrones.jpeg",
+        image: "./images/gamethrones.jpeg",
         description: "Game of Thrones describes a long struggle for power between noble families while a threat looms over their kingdoms, an external enemy that destroys everything in its path: the White Walkers. The series takes place on two continents, Westeros to the west, and Essos to the east."
       };
   } else {
       recommendation = {
         title: "The Umbrella Academy",
-        images: "./images/umbrella.jpeg",
+        image: "./images/umbrella.jpeg",
         description: "The Umbrella Academy is a superhero comedy-drama television series based on the Dark Horse comic series of the same name. Created for television by Steve Blackman and Jeremy Slater, it centers around a dysfunctional family of adopted superhero siblings who are forced to come together to stop various apocalyptic threats while frequently traveling through time."
       };
   }
