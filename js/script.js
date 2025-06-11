@@ -16,69 +16,69 @@ function calculate() {
   let recommendation = null;
 
   // Entertainment type
-  if (document.getElementById('anime').checked) {
+  if (document.getElementById('entertainment1').checked) {
     type = 'anime';
-  } else if (document.getElementById('tvshow').checked) {
+  } else if (document.getElementById('entertainment2').checked) {
     type = 'tvshow';
   }
 
   // Genre
-  if (document.getElementById('action').checked) {
+  if (document.getElementById('genre1').checked) {
     genre = 'action';
-  } else if (document.getElementById('comedy').checked) {
+  } else if (document.getElementById('genre2').checked) {
     genre = 'comedy';
-  } else if (document.getElementById('romance').checked) {
+  } else if (document.getElementById('genre3').checked) {
     genre = 'romance';
-  } else if (document.getElementById('mystery').checked) {
+  } else if (document.getElementById('genre4').checked) {
     genre = 'mystery';
-  } else if (document.getElementById('fantasy').checked) {
+  } else if (document.getElementById('genre5').checked) {
     genre = 'fantasy';
-  } else if (document.getElementById('horror').checked) {
+  } else if (document.getElementById('genre6').checked) {
     genre = 'horror';
   }
 
   // Length
-  if (document.getElementById('short').checked) {
+  if (document.getElementById('lengh1').checked) {
     length = 'short';
-  } else if (document.getElementById('medium').checked) {
+  } else if (document.getElementById('length2').checked) {
     length = 'medium';
-  } else if (document.getElementById('long').checked) {
+  } else if (document.getElementById('length3').checked) {
     length = 'long';
   }
 
   // Language
-  if (document.getElementById('dubbed').checked) {
+  if (document.getElementById('language1').checked) {
     language = 'dubbed';
-  } else if (document.getElementById('subtitles').checked) {
+  } else if (document.getElementById('language2').checked) {
     language = 'subtitles';
-  } else if (document.getElementById('either').checked) {
+  } else if (document.getElementById('language3').checked) {
     language = 'either';
   }
 
   // Setting
-  if (document.getElementById('modern').checked) {
+  if (document.getElementById('setting1').checked) {
     setting = 'modern';
-  } else if (document.getElementById('historical').checked) {
+  } else if (document.getElementById('setting2').checked) {
     setting = 'historical';
-  } else if (document.getElementById('scifi').checked) {
+  } else if (document.getElementById('setting3').checked) {
     setting = 'scifi';
-  } else if (document.getElementById('supernatural').checked) {
+  } else if (document.getElementById('setting4').checked) {
     setting = 'supernatural';
   }
 
   // Tone
-  if (document.getElementById('lighthearted').checked) {
+  if (document.getElementById('tone1').checked) {
     tone = 'lighthearted';
-  } else if (document.getElementById('emotional').checked) {
+  } else if (document.getElementById('tone2').checked) {
     tone = 'emotional';
-  } else if (document.getElementById('serious').checked) {
+  } else if (document.getElementById('tone3').checked) {
     tone = 'serious';
   }
 
   // Story Type
-  if (document.getElementById('serialized').checked) {
+  if (document.getElementById('story1').checked) {
     story = 'serialized';
-  } else if (document.getElementById('episodic').checked) {
+  } else if (document.getElementById('story2').checked) {
     story = 'episodic';
   }
 
