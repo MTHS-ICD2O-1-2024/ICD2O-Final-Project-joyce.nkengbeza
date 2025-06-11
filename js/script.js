@@ -6,13 +6,13 @@
 'use strict'
 
 function calculate() {
-  let type = ''
-  let genre = ''
-  let length = ''
-  let language = ''
-  let setting = ''
-  let tone = ''
-  let story = ''
+  let type = '';
+  let genre = '';
+  let length = '';
+  let language = '';
+  let setting = '';
+  let tone = '';
+  let story = '';
   let recommendation = null;
 
   // Entertainment type
@@ -134,11 +134,11 @@ function calculate() {
   } 
   
     if (language === 'dubbed') {
-      recommendation.description += " (Available Dubbed in English)"
+      recommendation.description += " (Available Dubbed in English)";
     } else if (language === "subbed") {
-      recommendation.description += " (Recommended in Original Japanese)"
+      recommendation.description += " (Recommended in Original Japanese)";
     } else if (language === "either") {
-      recommendation.description += "(Recommended in either)"
+      recommendation.description += "(Recommended in either)";
     }
 
   } if (type === 'tvshow') {
