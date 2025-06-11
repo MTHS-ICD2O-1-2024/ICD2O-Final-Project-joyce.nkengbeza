@@ -38,7 +38,8 @@ function calculate() {
   }
 
   // Length
-  if (document.getElementById('lengh1').checked) {
+  // FIXED: typo from 'lengh1' to 'length1'
+  if (document.getElementById('length1').checked) {
     length = 'short';
   } else if (document.getElementById('length2').checked) {
     length = 'medium';
@@ -131,71 +132,67 @@ function calculate() {
         description: "Attack on Titan is a Japanese manga and anime series about a world besieged by giant, man-eating humanoids called Titans. The story follows Eren Yeager, Mikasa Ackerman, and Armin Arlert, who join the Scout Regiment to fight against the Titans after their hometown is destroyed and Eren's mother is killed by a Colossal Titan."
       };
     }
-  
-  
- } else if (type === 'tvshow') {
+  } else if (type === 'tvshow') {
     if (setting === 'scifi') {
       recommendation = {
         title: "Stranger Things",
         image:"./images/strangerthings.jpeg",
         description: "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces and one strange little girl."
-
       };
     } else if (genre === 'comedy' && length === 'short') {
       recommendation = {
-        title: "Brooklynn nine-nine", 
+        title: "Brooklyn Nine-Nine", 
         image: "./images/brookly.jpeg",
         description: "Brooklyn Nine-Nine is a comedy television series that follows the lives and investigations of a detective squad within the fictional 99th Precinct of the New York City Police Department, located in Brooklyn. The show revolves around the humor, camaraderie, and sometimes surprising personalities of the characters as they navigate their jobs and personal lives."
       };
     } else if (genre === 'action' && tone === 'emotional') {
       recommendation = {
-        title: "The Mandelorian",
-        image: "./images/mandelorian.jpeg",
+        title: "The Mandalorian",
+        image: "./images/mandalorian.jpeg",
         description: "The Mandalorian is set after the fall of the Empire and before the emergence of the First Order. We follow the travails of a lone gunfighter in the outer reaches of the galaxy far from the authority of the New Republic."
       };
-
-  } else if (genre === 'mystery' && story === 'serialized') {
+    } else if (genre === 'mystery' && story === 'serialized') {
       recommendation = {
         title: "Sherlock",
         image: "./images/sherlock.jpg",
-        description:"Synopsis In this contemporary version of Sir Arthur Conan Doyle's detective stories, Dr. John Watson is a war vet just home from Afghanistan. He meets the brilliant but eccentric Holmes when the latter, who serves as a consultant to Scotland Yard, advertises for a flatmate."
+        description:"In this contemporary version of Sir Arthur Conan Doyle's detective stories, Dr. John Watson is a war vet just home from Afghanistan. He meets the brilliant but eccentric Holmes when the latter, who serves as a consultant to Scotland Yard, advertises for a flatmate."
       };
-  } else if (genre === 'fantasy' && setting === 'historical') {
+    } else if (genre === 'fantasy' && setting === 'historical') {
       recommendation = {
         title: "Game of Thrones",
         image: "./images/gamethrones.jpeg",
         description: "Game of Thrones describes a long struggle for power between noble families while a threat looms over their kingdoms, an external enemy that destroys everything in its path: the White Walkers. The series takes place on two continents, Westeros to the west, and Essos to the east."
       };
-  } else {
+    } else {
       recommendation = {
         title: "The Umbrella Academy",
         image: "./images/umbrella.jpeg",
         description: "The Umbrella Academy is a superhero comedy-drama television series based on the Dark Horse comic series of the same name. Created for television by Steve Blackman and Jeremy Slater, it centers around a dysfunctional family of adopted superhero siblings who are forced to come together to stop various apocalyptic threats while frequently traveling through time."
       };
-  }
+    }
   }
 
-   // Language Fix
+  // Language Fix
   if (recommendation) {
     if (language === 'dubbed') {
       recommendation.description += " (Available Dubbed in English)";
-    } else if (language === "subtitles") {
+    } else if (language === 'subtitles') {
       recommendation.description += " (Recommended in Original Japanese)";
-    } else if (language === "either") {
+    } else if (language === 'either') {
       recommendation.description += " (Recommended in either)";
     }
   } else {
     recommendation = {
       title: "Sorry",
       image: "./images/default.jpeg",
-      description: "We couldn't find a perfect match, but here's something worth watching!"
+      description: "We couldn't find a perfect match!"
     };
   }
 
   // Output
   document.getElementById("results").innerHTML = `
   <h2>🎬 We recommend you watch: <strong>${recommendation.title}</strong>!</h2>
-  <img src="${recommendation.images}" alt="${recommendation.title}">
+  <img src="${recommendation.image}" alt="${recommendation.title}"> 
   <p>${recommendation.description}</p>
-`;
+  `;
 }
