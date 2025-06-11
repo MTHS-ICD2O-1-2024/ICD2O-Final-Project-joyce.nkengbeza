@@ -17,69 +17,69 @@ function calculate() {
 
   // Entertainment type
   if (document.getElementById('anime').checked) {
-    type = 'anime'
+    type = 'anime';
   } else if (document.getElementById('tvshow').checked) {
-    type = 'tvshow'
+    type = 'tvshow';
   }
 
   // Genre
   if (document.getElementById('action').checked) {
-    genre = 'action'
+    genre = 'action';
   } else if (document.getElementById('comedy').checked) {
-    genre = 'comedy'
+    genre = 'comedy';
   } else if (document.getElementById('romance').checked) {
-    genre = 'romance'
+    genre = 'romance';
   } else if (document.getElementById('mystery').checked) {
-    genre = 'mystery'
+    genre = 'mystery';
   } else if (document.getElementById('fantasy').checked) {
-    genre = 'fantasy'
+    genre = 'fantasy';
   } else if (document.getElementById('horror').checked) {
-    genre = 'horror'
+    genre = 'horror';
   }
 
   // Length
   if (document.getElementById('short').checked) {
-    length = 'short'
+    length = 'short';
   } else if (document.getElementById('medium').checked) {
-    length = 'medium'
+    length = 'medium';
   } else if (document.getElementById('long').checked) {
-    length = 'long'
+    length = 'long';
   }
 
   // Language
   if (document.getElementById('dubbed').checked) {
-    language = 'dubbed'
+    language = 'dubbed';
   } else if (document.getElementById('subtitles').checked) {
-    language = 'subtitles'
+    language = 'subtitles';
   } else if (document.getElementById('either').checked) {
-    language = 'either'
+    language = 'either';
   }
 
   // Setting
   if (document.getElementById('modern').checked) {
-    setting = 'modern'
+    setting = 'modern';
   } else if (document.getElementById('historical').checked) {
-    setting = 'historical'
+    setting = 'historical';
   } else if (document.getElementById('scifi').checked) {
-    setting = 'scifi'
+    setting = 'scifi';
   } else if (document.getElementById('supernatural').checked) {
-    setting = 'supernatural'
+    setting = 'supernatural';
   }
 
   // Tone
   if (document.getElementById('lighthearted').checked) {
-    tone = 'lighthearted'
+    tone = 'lighthearted';
   } else if (document.getElementById('emotional').checked) {
-    tone = 'emotional'
+    tone = 'emotional';
   } else if (document.getElementById('serious').checked) {
-    tone = 'serious'
+    tone = 'serious';
   }
 
   // Story Type
   if (document.getElementById('serialized').checked) {
-    story = 'serialized'
+    story = 'serialized';
   } else if (document.getElementById('episodic').checked) {
-    story = 'episodic'
+    story = 'episodic';
   }
 
   // Validation
@@ -88,7 +88,7 @@ function calculate() {
     setting === '' || tone === '' || story === ''
   ) {
     document.getElementById("results").innerHTML =
-      "<p>Please answer all the questions to receive a recommendation!</p>"
+      "<p>Please answer all the questions to receive a recommendation!</p>";
     return;
   }
 
@@ -131,17 +131,9 @@ function calculate() {
         description: "Attack on Titan is a Japanese manga and anime series about a world besieged by giant, man-eating humanoids called Titans. The story follows Eren Yeager, Mikasa Ackerman, and Armin Arlert, who join the Scout Regiment to fight against the Titans after their hometown is destroyed and Eren's mother is killed by a Colossal Titan."
       };
     }
-  } 
   
-    if (language === 'dubbed') {
-      recommendation.description += " (Available Dubbed in English)";
-    } else if (language === "subbed") {
-      recommendation.description += " (Recommended in Original Japanese)";
-    } else if (language === "either") {
-      recommendation.description += "(Recommended in either)";
-    }
-
-  } if (type === 'tvshow') {
+  
+ } else if (type === 'tvshow') {
     if (setting === 'scifi') {
       recommendation = {
         title: "Stranger Things",
@@ -181,6 +173,25 @@ function calculate() {
         description: "The Umbrella Academy is a superhero comedy-drama television series based on the Dark Horse comic series of the same name. Created for television by Steve Blackman and Jeremy Slater, it centers around a dysfunctional family of adopted superhero siblings who are forced to come together to stop various apocalyptic threats while frequently traveling through time."
       };
   }
+  }
+
+   // Language Fix
+  if (recommendation) {
+    if (language === 'dubbed') {
+      recommendation.description += " (Available Dubbed in English)";
+    } else if (language === "subtitles") {
+      recommendation.description += " (Recommended in Original Japanese)";
+    } else if (language === "either") {
+      recommendation.description += " (Recommended in either)";
+    }
+  } else {
+    recommendation = {
+      title: "Sorry",
+      image: "./images/default.jpeg",
+      description: "We couldn't find a perfect match, but here's something worth watching!"
+    };
+  }
+
   // Output
   document.getElementById("results").innerHTML = `
   <h2>🎬 We recommend you watch: <strong>${recommendation.title}</strong>!</h2>
