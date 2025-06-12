@@ -148,7 +148,7 @@ function calculate() {
     } else if (genre === 'action' && tone === 'emotional') {
       recommendation = {
         title: "The Mandalorian",
-        image: "./images/mandalorian.jpeg",
+        image: "./images/mandelorian.jpeg",
         description: "The Mandalorian is set after the fall of the Empire and before the emergence of the First Order. We follow the travails of a lone gunfighter in the outer reaches of the galaxy far from the authority of the New Republic."
       };
     } else if (genre === 'mystery' && story === 'serialized') {
