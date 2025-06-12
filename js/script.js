@@ -110,7 +110,7 @@ function calculate() {
     } else if (genre === 'romance' && tone === 'emotional') {
       recommendation = {
         title: "Your Lie in April",
-        image: "./images/yourlieinapril.jpg",
+        image: "./images/youelieinapril.jpg",
         description: "Your Lie in April is an anime series about a young musician who finds romance. Former piano prodigy Kousei is living a somewhat uninspired life, until he meets Kaori, a free-spirited multi-instrumentalist. Softball-loving Tsubaki and soccer star Watari are Kousei's best friends who support him through thick and thin."
       };
     } else if (genre === 'mystery' && story === 'serialized') {
