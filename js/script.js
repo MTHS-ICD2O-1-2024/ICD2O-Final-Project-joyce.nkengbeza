@@ -58,29 +58,29 @@ function calculate() {
 
   // Setting
   if (document.getElementById('setting1').checked) {
-    setting = 'modern';
+     setting = 'modern';
   } else if (document.getElementById('setting2').checked) {
-    setting = 'historical';
+     setting = 'historical';
   } else if (document.getElementById('setting3').checked) {
-    setting = 'scifi';
+     setting = 'scifi';
   } else if (document.getElementById('setting4').checked) {
-    setting = 'supernatural';
+     setting = 'supernatural';
   }
 
   // Tone
   if (document.getElementById('tone1').checked) {
     tone = 'lighthearted';
   } else if (document.getElementById('tone2').checked) {
-    tone = 'emotional';
+     tone = 'emotional';
   } else if (document.getElementById('tone3').checked) {
-    tone = 'serious';
+     tone = 'serious';
   }
 
   // Story Type
   if (document.getElementById('story1').checked) {
     story = 'serialized';
   } else if (document.getElementById('story2').checked) {
-    story = 'episodic';
+     story = 'episodic';
   }
 
   // Validation
