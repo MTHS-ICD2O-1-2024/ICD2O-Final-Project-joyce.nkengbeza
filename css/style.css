@@ -29,6 +29,6 @@ body {
 }
 
 img {
-  float: right;
-  height: 200px;
+  float: left;
+  height: 400px;
 }
