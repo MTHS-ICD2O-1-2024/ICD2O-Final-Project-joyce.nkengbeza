@@ -1,203 +1,429 @@
 <!DOCTYPE html>
 <!-- ICS2O-FinalProject-HTML-MDL -->
 <html lang="en-ca">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content=">Tv Shows Recommendations" />
+    <meta name="keywords" content="mths, icd2o" />
+    <meta name="author" content="Joyce Nkengbeza" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://code.getmdl.io/1.3.0/material.deep_purple-purple.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./apple-touch-iconnew.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon-32x32new.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon-16x16new.png"
+    />
+    <link rel="manifest" href="./site.webmanifest" />
+    <title>Tv Shows Recommendations</title>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="description" content=">Tv Shows Recommendations" />
-  <meta name="keywords" content="mths, icd2o" />
-  <meta name="author" content="Joyce Nkengbeza" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_purple-purple.min.css" />
-  <link rel="stylesheet" href="./css/style.css" />
-  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-iconnew.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32new.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16new.png" />
-  <link rel="manifest" href="./site.webmanifest" />
-  <title>Tv Shows Recommendations</title>
-</head>
-
-<body>
-  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-  <script src="./js/script.js"></script>
-  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-    <header class="mdl-layout__header">
-      <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">Tv Shows Recommendations</span>
-      </div>
-    </header>
-    <main class="mdl-layout__content">
-      <div class="right-image">
-        <img src="./images/cookies.png" alt="image of cookies logo" />
-      </div>
-      <div class="page-content">How many cookies in what flavour would you like to order?</div>
-      <br />
-      <form>
+  <body>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="./js/script.js"></script>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <span class="mdl-layout-title">Tv Shows Recommendations</span>
+        </div>
+      </header>
+      <main class="mdl-layout__content">
+        <div class="page-content">
+          Please answer questions bellow based on entertainment preferences!
+        </div>
         <br />
-        <!-- First Question -->
-        <p>1. What is your preferred type of entertainment?</p>
+        <form>
+          <br />
+          <!-- First Question -->
+          <p>1. What is your preferred type of entertainment?</p>
 
-        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="entertainment1">
-          <input type="radio" id="entertainment1" class="mdl-radio__button" name="entertainment" value="anime" />
-          <span class="mdl-radio__label">Anime</span>
-        </label>
-        <br />
+          <label
+            class="mdl-radio mdl-js-radio mdl-js-ripple-effect"
+            for="entertainment1"
+          >
+            <input
+              type="radio"
+              id="entertainment1"
+              class="mdl-radio__button"
+              name="entertainment"
+              value="anime"
+            />
+            <span class="mdl-radio__label">Anime</span>
+          </label>
+          <br />
 
-        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="entertainment2">
-          <input type="radio" id="entertainment2" class="mdl-radio__button" name="entertainment" value="tvshow" />
-          <span class="mdl-radio__label">Tvshows</span>
-        </label>
-        <br />
+          <label
+            class="mdl-radio mdl-js-radio mdl-js-ripple-effect"
+            for="entertainment2"
+          >
+            <input
+              type="radio"
+              id="entertainment2"
+              class="mdl-radio__button"
+              name="entertainment"
+              value="tvshow"
+            />
+            <span class="mdl-radio__label">Tvshows</span>
+          </label>
+          <br />
 
-        <!-- Second Question -->
+          <!-- Second Question -->
 
-      <p>2. Which genre do you enjoy the most?</p>
+          <p>2. Which genre do you enjoy the most?</p>
 
-        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="genre1">
-          <input type="radio" id="genre1" class="mdl-radio__button" name="genre" value="action" />
-          <span class="mdl-radio__label">Action</span>
-        </label>
-        <br />
+          <label
+            class="mdl-radio mdl-js-radio mdl-js-ripple-effect"
+            for="genre1"
+          >
+            <input
+              type="radio"
+              id="genre1"
+              class="mdl-radio__button"
+              name="genre"
+              value="action"
+            />
+            <span class="mdl-radio__label">Action</span>
+          </label>
+          <br />
 
-        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="genre2">
-          <input type="radio" id="genre2" class="mdl-radio__button" name="genre" value="comedy" />
-          <span class="mdl-radio__label">Comedy</span>
-        </label>
-        <br />
+          <label
+            class="mdl-radio mdl-js-radio mdl-js-ripple-effect"
+            for="genre2"
+          >
+            <input
+              type="radio"
+              id="genre2"
+              class="mdl-radio__button"
+              name="genre"
+              value="comedy"
+            />
+            <span class="mdl-radio__label">Comedy</span>
+          </label>
+          <br />
 
-        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="genre3">
-          <input type="radio" id="genre3" class="mdl-radio__button" name="genre" value="romance" />
-          <span class="mdl-radio__label">Romance</span>
-        </label>
-        <br />
+          <label
+            class="mdl-radio mdl-js-radio mdl-js-ripple-effect"
+            for="genre3"
+          >
+            <input
+              type="radio"
+              id="genre3"
+              class="mdl-radio__button"
+              name="genre"
+              value="romance"
+            />
+            <span class="mdl-radio__label">Romance</span>
+          </label>
+          <br />
 
-        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="genre4">
-          <input type="radio" id="genre4" class="mdl-radio__button" name="genre" value="mystery" />
-          <span class="mdl-radio__label">Mystery</span>
-        </label>
-        <br />
+          <label
+            class="mdl-radio mdl-js-radio mdl-js-ripple-effect"
+            for="genre4"
+          >
+            <input
+              type="radio"
+              id="genre4"
+              class="mdl-radio__button"
+              name="genre"
+              value="mystery"
+            />
+            <span class="mdl-radio__label">Mystery</span>
+          </label>
+          <br />
 
-        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="genre5">
-          <input type="radio" id="genre5" class="mdl-radio__button" name="genre" value="fantasy" />
-          <span class="mdl-radio__label">Fantasy</span>
-        </label>
-        <br />
+          <label
+            class="mdl-radio mdl-js-radio mdl-js-ripple-effect"
+            for="genre5"
+          >
+            <input
+              type="radio"
+              id="genre5"
+              class="mdl-radio__button"
+              name="genre"
+              value="fantasy"
+            />
+            <span class="mdl-radio__label">Fantasy</span>
+          </label>
+          <br />
 
-        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="genre6">
-          <input type="radio" id="genre6" class="mdl-radio__button" name="genre" value="horror" />
-          <span class="mdl-radio__label">Horror</span>
-        </label>
-        <br />
+          <label
+            class="mdl-radio mdl-js-radio mdl-js-ripple-effect"
+            for="genre6"
+          >
+            <input
+              type="radio"
+              id="genre6"
+              class="mdl-radio__button"
+              name="genre"
+              value="horror"
+            />
+            <span class="mdl-radio__label">Horror</span>
+          </label>
+          <br />
 
-         <!-- Third Question -->
+          <!-- Third Question -->
 
-         <p>3. Do you prefer short or long shows?</p>
-         
-         <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="length1">
-          <input type="radio" id="length1" class="mdl-radio__button" name="length" value="short" />
-          <span class="mdl-radio__label">Short (Less than 12 episodes)</span>
-        </label>
+          <p>3. Do you prefer short or long shows?</p>
 
-        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="length2">
-          <input type="radio" id="length2" class="mdl-radio__button" name="length" value="medium" />
-          <span class="mdl-radio__label">Medium (13-50 episodes)</span>
-        </label>
+          <label
+            class="mdl-radio mdl-js-radio mdl-js-ripple-effect"
+            for="length1"
+          >
+            <input
+              type="radio"
+              id="length1"
+              class="mdl-radio__button"
+              name="length"
+              value="short"
+            />
+            <span class="mdl-radio__label">Short (Less than 12 episodes)</span>
+          </label>
 
-        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="length3">
-          <input type="radio" id="length3" class="mdl-radio__button" name="length" value="long" />
-          <span class="mdl-radio__label">Long (50+ episodes)</span>
-        </label>
+          <label
+            class="mdl-radio mdl-js-radio mdl-js-ripple-effect"
+            for="length2"
+          >
+            <input
+              type="radio"
+              id="length2"
+              class="mdl-radio__button"
+              name="length"
+              value="medium"
+            />
+            <span class="mdl-radio__label">Medium (13-50 episodes)</span>
+          </label>
 
-        <!-- Fourth Question -->
+          <label
+            class="mdl-radio mdl-js-radio mdl-js-ripple-effect"
+            for="length3"
+          >
+            <input
+              type="radio"
+              id="length3"
+              class="mdl-radio__button"
+              name="length"
+              value="long"
+            />
+            <span class="mdl-radio__label">Long (50+ episodes)</span>
+          </label>
+
+          <!-- Fourth Question -->
 
           <p>4. Language Preference?</p>
-         
-        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="language1">
-          <input type="radio" id="language1" class="mdl-radio__button" name="language" value="dubbed" />
-          <span class="mdl-radio__label">English Dub</span>
-        </label>
 
-        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="language2">
-          <input type="radio" id="language2" class="mdl-radio__button" name="language" value="subtitles" />
-          <span class="mdl-radio__label">Subtitles</span>
-        </label>
-        
-        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="language3">
-          <input type="radio" id="language3" class="mdl-radio__button" name="language" value="either" />
-          <span class="mdl-radio__label">I dont mind either</span>
-        </label>
+          <label
+            class="mdl-radio mdl-js-radio mdl-js-ripple-effect"
+            for="language1"
+          >
+            <input
+              type="radio"
+              id="language1"
+              class="mdl-radio__button"
+              name="language"
+              value="dubbed"
+            />
+            <span class="mdl-radio__label">English Dub</span>
+          </label>
 
-         <!-- Fifth Question -->
+          <label
+            class="mdl-radio mdl-js-radio mdl-js-ripple-effect"
+            for="language2"
+          >
+            <input
+              type="radio"
+              id="language2"
+              class="mdl-radio__button"
+              name="language"
+              value="subtitles"
+            />
+            <span class="mdl-radio__label">Subtitles</span>
+          </label>
+
+          <label
+            class="mdl-radio mdl-js-radio mdl-js-ripple-effect"
+            for="language3"
+          >
+            <input
+              type="radio"
+              id="language3"
+              class="mdl-radio__button"
+              name="language"
+              value="either"
+            />
+            <span class="mdl-radio__label">I dont mind either</span>
+          </label>
+
+          <!-- Fifth Question -->
 
           <p>5. Period In time?</p>
 
-         <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="setting1">
-          <input type="radio" id="setting1" class="mdl-radio__button" name="setting" value="modern" />
-          <span class="mdl-radio__label">Modern</span>
-        </label>
+          <label
+            class="mdl-radio mdl-js-radio mdl-js-ripple-effect"
+            for="setting1"
+          >
+            <input
+              type="radio"
+              id="setting1"
+              class="mdl-radio__button"
+              name="setting"
+              value="modern"
+            />
+            <span class="mdl-radio__label">Modern</span>
+          </label>
 
-        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="setting2">
-          <input type="radio" id="setting2" class="mdl-radio__button" name="setting" value="historical" />
-          <span class="mdl-radio__label">Historical</span>
-        </label>
+          <label
+            class="mdl-radio mdl-js-radio mdl-js-ripple-effect"
+            for="setting2"
+          >
+            <input
+              type="radio"
+              id="setting2"
+              class="mdl-radio__button"
+              name="setting"
+              value="historical"
+            />
+            <span class="mdl-radio__label">Historical</span>
+          </label>
 
-      <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="setting3">
-          <input type="radio" id="setting3" class="mdl-radio__button" name="setting" value="scifi" />
-          <span class="mdl-radio__label">Sci-fi/Futuristic</span>
-        </label>
+          <label
+            class="mdl-radio mdl-js-radio mdl-js-ripple-effect"
+            for="setting3"
+          >
+            <input
+              type="radio"
+              id="setting3"
+              class="mdl-radio__button"
+              name="setting"
+              value="scifi"
+            />
+            <span class="mdl-radio__label">Sci-fi/Futuristic</span>
+          </label>
 
-        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="setting4">
-          <input type="radio" id="setting4" class="mdl-radio__button" name="setting" value="supernatural" />
-          <span class="mdl-radio__label">Supernatural</span>
-        </label>
+          <label
+            class="mdl-radio mdl-js-radio mdl-js-ripple-effect"
+            for="setting4"
+          >
+            <input
+              type="radio"
+              id="setting4"
+              class="mdl-radio__button"
+              name="setting"
+              value="supernatural"
+            />
+            <span class="mdl-radio__label">Supernatural</span>
+          </label>
 
-       <!-- Sixth Question -->
+          <!-- Sixth Question -->
 
-       <p>6. The tone of the tvshow?</p>
+          <p>6. The tone of the tvshow?</p>
 
-        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="tone1">
-          <input type="radio" id="tone1" class="mdl-radio__button" name="tone" value="lighthearted" />
-          <span class="mdl-radio__label">Lighthearted</span>
-        </label>
-        
-         <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="tone2">
-          <input type="radio" id="tone2" class="mdl-radio__button" name="tone" value="emotional" />
-          <span class="mdl-radio__label">Deep and emotional</span>
-        </label>
+          <label
+            class="mdl-radio mdl-js-radio mdl-js-ripple-effect"
+            for="tone1"
+          >
+            <input
+              type="radio"
+              id="tone1"
+              class="mdl-radio__button"
+              name="tone"
+              value="lighthearted"
+            />
+            <span class="mdl-radio__label">Lighthearted</span>
+          </label>
 
-         <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="tone3">
-          <input type="radio" id="tone3" class="mdl-radio__button" name="tone" value="serious" />
-          <span class="mdl-radio__label">A mix of the two</span>
-        </label>
+          <label
+            class="mdl-radio mdl-js-radio mdl-js-ripple-effect"
+            for="tone2"
+          >
+            <input
+              type="radio"
+              id="tone2"
+              class="mdl-radio__button"
+              name="tone"
+              value="emotional"
+            />
+            <span class="mdl-radio__label">Deep and emotional</span>
+          </label>
 
-         <!-- Final Question -->
+          <label
+            class="mdl-radio mdl-js-radio mdl-js-ripple-effect"
+            for="tone3"
+          >
+            <input
+              type="radio"
+              id="tone3"
+              class="mdl-radio__button"
+              name="tone"
+              value="serious"
+            />
+            <span class="mdl-radio__label">A mix of the two</span>
+          </label>
 
-         <p>7. Ongoing story or each episode different?</p>
+          <!-- Final Question -->
 
-         <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="story1">
-          <input type="radio" id="story1" class="mdl-radio__button" name="story" value="serialized" />
-          <span class="mdl-radio__label">Serialized</span>
-        </label>
+          <p>7. Ongoing story or each episode different?</p>
 
-        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="story2">
-          <input type="radio" id="story2" class="mdl-radio__button" name="story" value="episodic" />
-          <span class="mdl-radio__label">Episodic</span>
-        </label>
+          <label
+            class="mdl-radio mdl-js-radio mdl-js-ripple-effect"
+            for="story1"
+          >
+            <input
+              type="radio"
+              id="story1"
+              class="mdl-radio__button"
+              name="story"
+              value="serialized"
+            />
+            <span class="mdl-radio__label">Serialized</span>
+          </label>
 
+          <label
+            class="mdl-radio mdl-js-radio mdl-js-ripple-effect"
+            for="story2"
+          >
+            <input
+              type="radio"
+              id="story2"
+              class="mdl-radio__button"
+              name="story"
+              value="episodic"
+            />
+            <span class="mdl-radio__label">Episodic</span>
+          </label>
 
-
-        <!-- Accent-colored raised button with ripple -->
-        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-          onclick="calculate()" type="button">
-          Recommend me!!!
-        </button>
-      </form>
-      <br />
-      <div class="page-content-answer">
-        <div id="results"></div>
-      </div>
-    </main>
-  </div>
-</body>
+          <!-- Accent-colored raised button with ripple -->
+          <button
+            class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+            onclick="calculate()"
+            type="button"
+          >
+            Recommend me!!!
+          </button>
+        </form>
+        <br />
+        <div class="page-content-answer">
+          <div id="results"></div>
+        </div>
+      </main>
+    </div>
+  </body>
 </html>
