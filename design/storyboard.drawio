@@ -1,11 +1,176 @@
 <mxfile host="65bd71144e">
     <diagram id="HIP3nbAZw_EuaXWnEj3U" name="Page-1">
-        <mxGraphModel dx="399" dy="236" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="623" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="7" value="http://ics2o.mths.ca" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="40" y="40" width="760" height="480" as="geometry"/>
+                <mxCell id="7" value="http://ics2o.mths.ca" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="40" width="760" height="880" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="What is your preferred type of entertainment?&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="10" y="80" width="270" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Tvshows" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="40" y="130" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Anime" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="45" y="110" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Which genre do you enjoy the most?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="10" y="180" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Action" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="40" y="210" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Comedy" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="35" y="225" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Romance" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="35" y="240" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Mystery" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="35" y="255" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Fantasy" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="35" y="270" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Horror" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="40" y="285" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Do you Prefer long or short shows?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="5" y="315" width="210" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Short (Less than 12 Episodes)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="20" y="358" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Medium (13 - 50 episodes)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="225" y="358" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Long (50+ Episodes)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="425" y="358" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="Language Preference?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="10" y="410" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="English Dub" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="60" y="450" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Subtitles" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="200" y="450" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="I dont mind either" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="275" y="450" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="Period in time?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="10" y="500" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="Modern" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="60" y="540" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="Historical" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="145" y="540" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="scifi/futuristic" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="220" y="540" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="supernatural" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="315" y="540" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="Tone of the Show?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="20" y="600" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="Lighthearted" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="15" y="640" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="Deep and emotional" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="120" y="640" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="A mix of the two" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="265" y="640" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="Ongoing story or each episode different?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="5" y="690" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="Serialized" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="25" y="720" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="Episodic" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="125" y="720" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="Recommend me!!!" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="240" y="715" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="40" y="120" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="40" y="140" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="30" y="220" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="30" y="235" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="30" y="250" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="30" y="265" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="30" y="280" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="30" y="295" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="15" y="368" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="220" y="368" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="415" y="368" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="55" y="460" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="200" y="460" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="275" y="460" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="55" y="550" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="140" y="550" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="215" y="550" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="310" y="550" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="10" y="650" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="115" y="650" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="260" y="650" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="20" y="730" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="120" y="730" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Tv Shows Recommendations&amp;nbsp;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="260" y="23" width="340" height="40" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
